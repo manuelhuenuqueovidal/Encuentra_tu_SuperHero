@@ -1,0 +1,23 @@
+/* Body */
+body {
+  text-align: center;
+  background-color: hsl(236, 87%, 43%);
+}
+
+/* smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* @media */
+@media screen and (max-width: 900px) {
+  #encuentra {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #superHeroImage {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
